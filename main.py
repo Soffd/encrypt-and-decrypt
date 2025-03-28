@@ -59,7 +59,7 @@ class CipherServer:
     BINARY_MAP = {'00': '我', '01': '要', '10': '吃', '11': '饭'}
     TEXT_MAP = {v: k for k, v in BINARY_MAP.items()}
 
-@register("cipher", "Yuki Soffd", "基于'我要吃饭'的二进制加解密插件", "1.0.0", "https://github.com/yourrepo")
+@register("cipher", "Yuki Soffd", "基于'我要吃饭'的二进制加解密插件", "1.0.0", "https://github.com/Soffd/encrypt-and-decrypt")
 class CipherPlugin(Star):
     server = CipherServer()
     
